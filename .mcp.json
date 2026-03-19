@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "sixmo-form": {
+      "command": "node",
+      "args": ["src/mcp-server.js"],
+      "cwd": "."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "sixmo-form-automation",
+  "version": "1.0.0",
+  "description": "Automated form submission tool for sixmo.ru (Adaptive Flow Challenge) — callable as MCP tool/skill by AI agents",
+  "main": "src/automate-form.js",
+  "bin": {
+    "sixmo-form": "src/cli.js",
+    "sixmo-mcp": "src/mcp-server.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "mcp": "node src/mcp-server.js",
+    "test": "node src/cli.js --visible",
+    "test:headless": "node src/cli.js --headless"
+  },
+  "keywords": ["automation", "playwright", "mcp", "form", "agent-tool"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.58.2",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

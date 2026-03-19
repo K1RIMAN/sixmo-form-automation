@@ -1,0 +1,8 @@
+node_modules/
+error-screenshot.png
+upload-file.txt
+.env
+*.log
+.DS_Store
+Thumbs.db
+.claude/
